@@ -1,1 +1,18 @@
-Hello World
+<html>
+<head>
+  <script type="text/javascript" src="validate.js"></script>
+</head>
+  <body>
+    <p>
+      Hello World!
+    </p>
+
+    <p>
+      Here is a sample form
+      <form name="myForm" action="index.html" onsubmit="return validateForm()" method="post">
+        Name: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+      </form>
+    </p>
+  </body>
+</html>
